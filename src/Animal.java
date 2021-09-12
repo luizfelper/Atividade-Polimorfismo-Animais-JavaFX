@@ -1,4 +1,4 @@
-public abstract class Animal {
+public abstract class Animal implements mostraDetalhes {
     String Nome;
     String Raca;
 
@@ -16,6 +16,7 @@ public abstract class Animal {
         return Raca;
     }
 
+    //Seeter do nome
     public void setNome (String Nome) {
         this.Nome = Nome;
     }
@@ -23,8 +24,5 @@ public abstract class Animal {
     public void setRaca (String Raca) {
         this.Raca = Raca;
     }
-
-
-
 
 }
