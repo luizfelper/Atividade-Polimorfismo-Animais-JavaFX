@@ -11,7 +11,7 @@ public class Cachorro extends Animal {
         return Latir;
     }
 
-    public String mostraDetalhes(){
+    public String mostraDetalhe(){
         String Nome = getNome();
         String Raca = getRaca();
         String Latir = getLatir();

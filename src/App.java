@@ -4,9 +4,9 @@ public class App {
 
         Animal Cachorro = new Cachorro("Bob", "Poodle", "Au au");
         Animal Gato = new Gato("Bixano", "Vira Lata", "Miau");
-        
-        Cachorro.mostraDetalhes();
-        Gato.mostraDetalhes();
+
+        Cachorro.mostraDetalhe();
+        Gato.mostraDetalhe();
     
     }
 }

@@ -11,7 +11,7 @@ public class Gato extends Animal {
         return Miar;
     }
 
-    public String mostraDetalhes(){
+    public String mostraDetalhe(){
         String Nome = getNome();
         String Raca = getRaca();
         String Miar = getMiar();

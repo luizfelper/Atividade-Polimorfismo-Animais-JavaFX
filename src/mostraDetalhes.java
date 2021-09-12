@@ -1,5 +1,5 @@
 public interface mostraDetalhes {
 
-   String mostraDetalhes();
+   public String mostraDetalhe();
     
 }
